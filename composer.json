@@ -1,0 +1,18 @@
+{
+    "name": "xiaohigh/curl",
+    "description": "封装好的一个curl类,用来在php脚本中,发送get请求和post请求",
+    "license": "MIT",
+    "require": {},
+   	"authors": [
+    	{
+    		"name" : "xiaohigh",
+    		"email": "xiaohigh@163.com"
+    	}
+    ],
+    "autoload":{
+		"psr-4": {
+			"xiaohigh\\" : "./src"
+		}    	
+    }
+
+}
