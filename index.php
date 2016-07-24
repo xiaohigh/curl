@@ -5,7 +5,10 @@
 	//实例化
 	$curl = new \xiaohigh\Curl;
 
-	$res = $curl -> get('http://www.xiaohigh.com');
+	//发送get请求
+	// $res = $curl -> get('http://www.xiaohigh.com');
+	//发送post请求
+	$res = $curl -> post('http://www.xiaohigh.com', []);
 
 	echo $res;
 
